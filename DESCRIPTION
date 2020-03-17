@@ -1,0 +1,18 @@
+Package: VeriCov
+Title: Computes fsQCA Coverage and Consistency using methods described by F. Veri
+Version: 0.1
+Authors@R: 
+    person(given = "Brent",
+           family = "Hutto",
+           role = c("aut", "cre"),
+           email = "brent@brenthutto.com")
+Description: 
+    Two recent articles by Francisco Veri suggest new ways of evaluating coverage and consistency 
+    in fsQCA. This package implements several of his suggested fit measures as well as using the
+    XYplot function from Dusa's QCA package to illustrate the areas of X-Y plots referred to by
+    Veri. These functions only do plots and computations for sufficiency analysis. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: QCA 
