@@ -12,3 +12,5 @@ cases on XYplot, as used by Veri in his articles.
 
 This package contains the computation and plotting functions. The plots are basically done with a wrapper around Adrian Dusa's XYplot function
 built in to the QCA package. I also included three example datasets referenced by the two Veri articles.
+
+Being able to produce Veri-style metrics and plots has helped me understand what he's proposing, I need to make clear that the motivation for this programming project was equal parts interest in his work and my self-learning process for R programming and in particular the creation of R package. 
